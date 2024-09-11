@@ -5,6 +5,7 @@ import vueJsx from '@vitejs/plugin-vue-jsx';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
+  base: '/webrtc-peer/',
   plugins: [
     vue(),
     vueJsx(),
@@ -54,7 +55,6 @@ export default defineConfig({
     }
   },
   build: {
-    base: '/webrtc-peer/',
     chunkSizeWarningLimit: 1500
   },
   preview: {
