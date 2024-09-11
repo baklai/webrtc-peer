@@ -1,0 +1,66 @@
+{
+  "name": "webrtc-peer",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "WebRTC Peer - An application responsible for establishing and managing direct P2P connections between users using WebRTC technology",
+  "author": {
+    "name": "Dmitrii Baklai",
+    "email": "d.n.baklai@gmail.com",
+    "url": "https://baklai.github.io"
+  },
+  "homepage": "https://github.com/baklai/webrtc-peer#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baklai/webrtc-peer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/baklai/webrtc-peer/issues"
+  },
+  "keywords": [
+    "vue",
+    "peerjs",
+    "webrtc"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.16.0",
+    "npm": ">=10.8.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/",
+    "generate-pwa-assets": "pwa-assets-generator"
+  },
+  "dependencies": {
+    "@jamescoyle/vue-icon": "^0.1.2",
+    "@mdi/js": "^7.4.47",
+    "floating-vue": "^5.2.2",
+    "peerjs": "^1.5.4",
+    "pinia": "^2.1.7",
+    "v-clipboard": "^3.0.0-next.1",
+    "vee-validate": "^4.13.2",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3",
+    "vue-toastification": "^2.0.0-rc.5",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.8.0",
+    "@vite-pwa/assets-generator": "^0.2.6",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vitejs/plugin-vue-jsx": "^4.0.0",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "postcss": "^8.4.45",
+    "prettier": "^3.2.5",
+    "tailwindcss": "^3.4.10",
+    "vite": "^5.3.1",
+    "vite-plugin-pwa": "^0.20.5"
+  }
+}
