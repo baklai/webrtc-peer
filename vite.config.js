@@ -54,7 +54,7 @@ export default defineConfig({
     }
   },
   build: {
-    base: 'webrtc-peer',
+    base: '/webrtc-peer/',
     chunkSizeWarningLimit: 1500
   },
   preview: {
