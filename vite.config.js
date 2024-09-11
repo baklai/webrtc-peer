@@ -16,9 +16,10 @@ export default defineConfig({
       },
       includeAssets: ['favicon.ico'],
       manifest: {
-        name: 'Helpdesk',
-        short_name: 'HD',
-        description: 'Helpdesk - Web application of technical support',
+        name: 'WebRTC Peer',
+        short_name: 'WebRTC Peer',
+        description:
+          'WebRTC Peer - Web application responsible for establishing and managing direct P2P connections between users using WebRTC technology',
         theme_color: '#ffffff',
         icons: [
           {
@@ -53,6 +54,7 @@ export default defineConfig({
     }
   },
   build: {
+    base: 'webrtc-peer',
     chunkSizeWarningLimit: 1500
   },
   preview: {
